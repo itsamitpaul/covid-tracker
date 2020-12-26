@@ -1,0 +1,62 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.stats-container {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.app-heading {
+  margin-top: 0;
+  padding: 1em;
+}
+
+.cases-flex-container,
+.recovered-flex-container,
+.deaths-flex-container,
+.active-flex-container,
+.tests-flex-container {
+  display: block;
+}
+
+.cases-flex-item,
+.recovered-flex-item,
+.deaths-flex-item,
+.active-flex-item,
+.tests-flex-item {
+  width: 80%;
+  background-color: #fff;
+  margin: 0em auto 3em auto;
+  padding: 0.01em 1.2em 1.3em 1.3em;
+  border-radius: 0.4em;
+}
+
+.updated-at {
+  color: #00f;
+  font-size: 0.8em;
+  margin: 2em;
+}
+
+@media (min-width: 700px) {
+  .cases-flex-container,
+  .recovered-flex-container,
+  .deaths-flex-container,
+  .active-flex-container,
+  .tests-flex-container {
+    display: flex;
+  }
+  .cases-flex-item,
+  .recovered-flex-item,
+  .deaths-flex-item {
+    width: 33.33%;
+    margin: 0em 2em 3em 2em;
+  }
+  .active-flex-item,
+  .tests-flex-item {
+    width: 50%;
+    margin: 0em 2em 3em 2em;
+  }
+}
