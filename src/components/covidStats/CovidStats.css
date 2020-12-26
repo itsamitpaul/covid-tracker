@@ -14,13 +14,13 @@ body {
   padding: 1em;
 }
 
-.cases-flex-container,
+/* .cases-flex-container,
 .recovered-flex-container,
 .deaths-flex-container,
 .active-flex-container,
 .tests-flex-container {
   display: block;
-}
+} */
 
 .cases-flex-item,
 .recovered-flex-item,
